@@ -17,9 +17,9 @@ I noticed that the feature loss had a tendancy to create over-sharpening issues,
 
 ## Next steps
 * Try to use an RNN ?
-* Any idea welcome !!
+* Any idea is welcome !!
 
-## Screenshots of Current Results 
+## Screenshots of First Results 
 Here are screenshots of initial results I obtained so far on a test video
 ![res1](https://github.com/sebderhy/VideoEnhancement/blob/master/images/vid-enh-pic1.PNG "Comparison Image 1") 
 ![res2](https://github.com/sebderhy/VideoEnhancement/blob/master/images/vid-enh-pic2.PNG "Comparison Image 2") 
