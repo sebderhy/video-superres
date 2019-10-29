@@ -1,4 +1,4 @@
-# video-enhancement
+# Video Enhancement
 Video enhancement by transfer learning using fastai v1 library
 
 ## Idea
