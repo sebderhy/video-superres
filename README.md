@@ -17,6 +17,6 @@ The Notebooks [video-enhancement](https://github.com/sebderhy/video-enhancement/
 These notebooks create automatically an enhanced video, as well as a comparions video to the input. However, in order to run, you will need to install ffmpeg, moviepy, and a few other things that are explained in the notebook.
 
 ## Open questions
-* How can I get the pictures to feel more natural
+* How can I fix the overshooting effect and make the video feel more natural? Maybe add a LSE term in the cost function?
 * Should we overfit or not?
 * How can we make the algorithm fast enough so that it can be productionized? In particular, how can we make the learning as fast as possible? Also, currently, even when the model is trained, writing the output images still takes a long time.
