@@ -10,12 +10,12 @@ The Notebooks [video-enhancement](https://github.com/sebderhy/video-enhancement/
 These notebooks create automatically an enhanced video, as well as a comparions video to the input. However, in order to run, you will need to install ffmpeg, moviepy, and a few other things that are explained in the notebook.
 
 ## Open questions
-* How can make the pictures' look more natural in general and remove the "overshooting" ? 
+* How can make the pictures look more natural in general and remove the "overshooting" ? 
 * Should we overfit in this specific case, since the test set IS the training set?
 * How can we make the process fast enough so that it can be useful in real life? In particular, how can we make the learning as fast as possible? Also, currently, going from video to images and images to video takes a long time...
 
 ## Next steps
-* Add an LSE term in the cost function 
+* Add an MSE term in the cost function 
 * Try to use an RNN
 * Any idea welcome !!
 
