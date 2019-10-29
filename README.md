@@ -1,5 +1,5 @@
 # Video Enhancement
-Video enhancement by transfer learning using fastai v1 library
+Video enhancement / super-resolution by transfer learning using fastai v1 library
 
 ## Idea
 A video can be seen as a small dataset, so if we start with a good enough image enhancement model (in our case, we'll use [fastai lesson 7 model](https://github.com/fastai/course-v3/blob/master/nbs/dl1/lesson7-superres.ipynb) as a basis), and fine-tune it on the video itself, the model could then learn the specific of the recorded scene, and I hope very nice results can be achieved.
