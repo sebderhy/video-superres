@@ -22,10 +22,10 @@ I noticed that the feature loss had a tendancy to create over-sharpening issues,
 *Notice how the new model fixes the checkerboard issue that we obtain with the "pets" (fastai lesson 7) model*
 
 ### Example input image:
-![input1](https://github.com/sebderhy/VideoEnhancement/blob/master/github-images/input-images-1.png "Input Image 1") 
+<img src="https://github.com/sebderhy/VideoEnhancement/blob/master/github-images/input-images-1.png" width="1024" />
 
 ### Result from [fastai lesson 7 model](https://github.com/fastai/course-v3/blob/master/nbs/dl1/lesson7-superres.ipynb)
-![enh-pets-1](https://github.com/sebderhy/VideoEnhancement/blob/master/github-images/enh-pets-1.png "Pets model result 1") 
+<img src="https://github.com/sebderhy/VideoEnhancement/blob/master/github-images/enh-pets-1.png" width="1024" />
 
 ### Results from this model
-![new-res-1](https://github.com/sebderhy/VideoEnhancement/blob/master/github-images/enh-ftlss-only-mstn1-1.png "New model result 1") 
+<img src="https://github.com/sebderhy/VideoEnhancement/blob/master/github-images/enh-ftlss-only-mstn1-1.png" width="1024" />
