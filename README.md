@@ -2,7 +2,7 @@
 Video enhancement / super-resolution by transfer learning using fastai v1 library
 
 ## Idea
-A video can be seen as a small dataset, so if we start with a good enough image enhancement model (in our case, we'll use [fastai lesson 7 model](https://github.com/fastai/course-v3/blob/master/nbs/dl1/lesson7-superres.ipynb) as a basis), and fine-tune it on the video itself, the model could then learn the specific of the recorded scene, and I hope very nice results can be achieved.
+The idea is that since a video is a small dataset, if we start with a good image enhancement model (in my case [fastai lesson 7 "pets" model](https://github.com/fastai/course-v3/blob/master/nbs/dl1/lesson7-superres.ipynb)), and fine-tune it on the images of the video, the model can hopefully learn specific details of the scene when the camera gets closer and then reintegrate those details back when the camera gets further away.
 
 ## How to run
 The notebook [video-enhancement](https://github.com/sebderhy/video-enhancement/blob/master/video-enhancement.ipynb) does the learning, then create the enhanced video, and then compare the enhanced video against the input and/or an intermediate "milestone" (basically the benchmark result we are trying to beat). However, in order to run, you will need to install ffmpeg, moviepy, and a few other things that are explained in the notebook.
