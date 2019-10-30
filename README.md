@@ -11,7 +11,6 @@ The notebook [video-enhancement](https://github.com/sebderhy/video-enhancement/b
 I noticed that the feature loss had a tendancy to create over-sharpening issues, so I added the option to couple an MSE loss and the feature loss.
 
 ## Open questions
-* How can make the pictures look more natural in general and remove the "overshooting" ? 
 * Should we overfit in this specific case, since the test set IS the training set?
 * How can we make the process fast enough so that it can be useful in real life? In particular, how can we make the learning as fast as possible? Also, currently, going from video to images and images to video takes a long time...
 
@@ -19,9 +18,14 @@ I noticed that the feature loss had a tendancy to create over-sharpening issues,
 * Try to use an RNN ?
 * Any idea is welcome !!
 
-## Screenshots of First Results 
-Here are screenshots of initial results I obtained so far on a test video
-![res1](https://github.com/sebderhy/VideoEnhancement/blob/master/images/vid-enh-pic1.PNG "Comparison Image 1") 
-![res2](https://github.com/sebderhy/VideoEnhancement/blob/master/images/vid-enh-pic2.PNG "Comparison Image 2") 
-![res3](https://github.com/sebderhy/VideoEnhancement/blob/master/images/vid-enh-pic3.PNG "Comparison Image 3") 
-![res4](https://github.com/sebderhy/VideoEnhancement/blob/master/images/vid-enh-pic4.PNG "Comparison Image 4") 
+## Results and comparison to [fastai lesson 7 model](https://github.com/fastai/course-v3/blob/master/nbs/dl1/lesson7-superres.ipynb)
+*Notice how the new model fixes the checkerboard issue that we obtain with the "pets" (fastai lesson 7) model*
+
+### Example input image:
+![input1](https://github.com/sebderhy/VideoEnhancement/blob/master/github-images/input-images-1.png "Input Image 1") 
+
+### Result from [fastai lesson 7 model](https://github.com/fastai/course-v3/blob/master/nbs/dl1/lesson7-superres.ipynb)
+![enh-pets-1](https://github.com/sebderhy/VideoEnhancement/blob/master/github-images/enh-pets-1.png "Pets model result 1") 
+
+### Results from this model
+![new-res-1](https://github.com/sebderhy/VideoEnhancement/blob/master/github-images/enh-ftlss-only-mstn1-1.png "New model result 1") 
